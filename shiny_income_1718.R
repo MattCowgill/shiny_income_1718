@@ -10,8 +10,8 @@ equiv_fn <- function(income, adults, kids, adult_weight = 0.5, kid_weight = 0.3)
 # data from ABS 6523.0 - Household Income and Wealth, Australia, 2017-18
 # see prepare_summary_tables.R for the steps taken to clean this data
 
-equiv_long_latest <- read_csv("equiv_long_latest.csv")
-equiv_dec_latest <- read_csv("equiv_dec_latest.csv")
+load("equiv_long_latest.Rda")
+load("equiv_dec_latest.Rda")
 
 year <- unique(equiv_dec_latest$year)
 med_inc <- equiv_dec_latest$income[equiv_dec_latest$percentile == 50]

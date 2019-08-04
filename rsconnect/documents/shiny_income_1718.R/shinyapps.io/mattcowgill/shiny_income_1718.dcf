@@ -1,0 +1,13 @@
+name: shiny_income_1718
+title: shiny_income_1718
+username:
+account: mattcowgill
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1065924
+bundleId: 2287846
+url: https://mattcowgill.shinyapps.io/shiny_income_1718/
+when: 1564802083.55539
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: LICENSE|prepare_summary_tables.R|README.md|shiny_1516.R|data/~$65230do001_201718.xlsx|data/65230do001_201718.xlsx

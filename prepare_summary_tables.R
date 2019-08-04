@@ -86,7 +86,6 @@ equiv_long_latest <- equiv_long %>%
 equiv_dec_latest <- equiv_deciles %>%
   filter(year == max(year))
 
-write_csv(equiv_long_latest, "equiv_long_latest.csv")
-write_csv(equiv_dec_latest, "equiv_dec_latest.csv")
-
+save(equiv_long_latest, file = "equiv_long_latest.Rda")
+save(equiv_dec_latest, file = "equiv_dec_latest.Rda")
 
